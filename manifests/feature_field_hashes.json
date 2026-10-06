@@ -1,0 +1,1429 @@
+{
+  "hash_definition": "SHA256 of contiguous C-order array bytes; dtype and shape checked separately",
+  "arrays": {
+    "historical/test_10m.npz": {
+      "nodes": {
+        "dtype": "<f4",
+        "shape": [
+          7479,
+          10,
+          20
+        ],
+        "sha256": "7286e82ebecd26e341931ceb669a61f0731626dab89ba72d7c2c093d69789055"
+      },
+      "heroes": {
+        "dtype": "<i8",
+        "shape": [
+          7479,
+          10
+        ],
+        "sha256": "436b0c86a931ec056b60d6792a3a729a284cb1143da601cf938d4b9ae6f8536b"
+      },
+      "edges": {
+        "dtype": "<f4",
+        "shape": [
+          7479,
+          10,
+          10,
+          2
+        ],
+        "sha256": "9736bfd4a312c17301e824628488838c1b72eb602053696c9a85a7dc14b17af4"
+      },
+      "roles": {
+        "dtype": "<f4",
+        "shape": [
+          7479,
+          10
+        ],
+        "sha256": "1b789b8eca37438b2c8be98f2396fbf8f2e2567e9ea489dc891be07265682d58"
+      },
+      "sequence": {
+        "dtype": "<f4",
+        "shape": [
+          7479,
+          11,
+          4
+        ],
+        "sha256": "8c8a9278161211248931b9733241dd33cdced0398f7e9bc3f6c7fb09d84e2a2a"
+      },
+      "outcome": {
+        "dtype": "<f4",
+        "shape": [
+          7479
+        ],
+        "sha256": "c5c21d045ecfc665308992eaa5620cce4b44c988be539dbb3113df34e35ee9ae"
+      },
+      "aux": {
+        "dtype": "<f4",
+        "shape": [
+          7479,
+          2
+        ],
+        "sha256": "a94eee9ff1be9f78f6efaf00c4c8b80b04b8a2912790fb6c26aef2286fdbc731"
+      },
+      "aux_mask": {
+        "dtype": "<f4",
+        "shape": [
+          7479
+        ],
+        "sha256": "b38f3ffb3c1b69fb8e60f076cb47f00e1b56f215fae6b86526241f711992fce5"
+      },
+      "match_id": {
+        "dtype": "<i8",
+        "shape": [
+          7479
+        ],
+        "sha256": "110c5a86fc9535eb4adce59b5a9ac4ca8b39addf87c56d43c7b4a93113d30f72"
+      },
+      "patch": {
+        "dtype": "<i8",
+        "shape": [
+          7479
+        ],
+        "sha256": "1656b076bd4185932f0f98581d7b8f4b8770a63b856382ef5244770b6747adcb"
+      },
+      "start_time": {
+        "dtype": "<i8",
+        "shape": [
+          7479
+        ],
+        "sha256": "8ba7c03a292fbd835b1bbb9600430f1edc14c054a6c538fbfc640b7fe4d7f2b7"
+      }
+    },
+    "historical/test_20m.npz": {
+      "nodes": {
+        "dtype": "<f4",
+        "shape": [
+          7172,
+          10,
+          20
+        ],
+        "sha256": "139b1b169758c13997df538ba55dbf5123fe16f156ebef4f4f23609ae280492b"
+      },
+      "heroes": {
+        "dtype": "<i8",
+        "shape": [
+          7172,
+          10
+        ],
+        "sha256": "d5e173f0b4cdaab9d988c5bdf6f12c114852b9e893a3711e97fe7040f0170ace"
+      },
+      "edges": {
+        "dtype": "<f4",
+        "shape": [
+          7172,
+          10,
+          10,
+          2
+        ],
+        "sha256": "5636e3fbda3dba4e73322371217d4f911a88c3fdf295711ac15d161c1a3c02fe"
+      },
+      "roles": {
+        "dtype": "<f4",
+        "shape": [
+          7172,
+          10
+        ],
+        "sha256": "10b395860ac2a020b8e518a73618e236722806a34f4ce50cf870a7fb1404f119"
+      },
+      "sequence": {
+        "dtype": "<f4",
+        "shape": [
+          7172,
+          21,
+          4
+        ],
+        "sha256": "63fe12cc6cf3c9d7ce7ea637e9be9d44fde9359fd3200a391ff81a96769e76b0"
+      },
+      "outcome": {
+        "dtype": "<f4",
+        "shape": [
+          7172
+        ],
+        "sha256": "c0f3c1621ce921af820dc950741d9db90cb9ca06fff3be93ae5aa1d4e46ccc03"
+      },
+      "aux": {
+        "dtype": "<f4",
+        "shape": [
+          7172,
+          2
+        ],
+        "sha256": "076829929db668d32cf6b4cc6fe6adb386f5ac0435c187d73cb177c5534acaad"
+      },
+      "aux_mask": {
+        "dtype": "<f4",
+        "shape": [
+          7172
+        ],
+        "sha256": "acd466ee747e1d6428df4415942c05c2aecdb126fb40974b8da869923b0c9f4f"
+      },
+      "match_id": {
+        "dtype": "<i8",
+        "shape": [
+          7172
+        ],
+        "sha256": "4424041232ddd3080a1ca731834563f97c28d5c58c51b4d02ada4857844afd48"
+      },
+      "patch": {
+        "dtype": "<i8",
+        "shape": [
+          7172
+        ],
+        "sha256": "318645366dbb58218ca19e7241c008bf05e0a705ce0fd7f3771bfd5492231365"
+      },
+      "start_time": {
+        "dtype": "<i8",
+        "shape": [
+          7172
+        ],
+        "sha256": "7e50ac57f72780d949715fb5472ed412bfe21650d7d41998aa6ad819733ca7da"
+      }
+    },
+    "historical/test_30m.npz": {
+      "nodes": {
+        "dtype": "<f4",
+        "shape": [
+          4129,
+          10,
+          20
+        ],
+        "sha256": "6851ce95ee5c0a2ec0144501c506fa68dee72608f68c9392e0120e1f6a9fb69d"
+      },
+      "heroes": {
+        "dtype": "<i8",
+        "shape": [
+          4129,
+          10
+        ],
+        "sha256": "383854dbf0e40679ec764e3928dd4c18488177360ed27cafae3822e69b2dbfaa"
+      },
+      "edges": {
+        "dtype": "<f4",
+        "shape": [
+          4129,
+          10,
+          10,
+          2
+        ],
+        "sha256": "3d6a70a0c26ebee650dc7d92421f2917e1f8a0d36d60e92c8598cc5d38eee6ee"
+      },
+      "roles": {
+        "dtype": "<f4",
+        "shape": [
+          4129,
+          10
+        ],
+        "sha256": "4e107906b50e8bc70539a910085695af0e207046eb0a9fb784115a0cab9d5b25"
+      },
+      "sequence": {
+        "dtype": "<f4",
+        "shape": [
+          4129,
+          31,
+          4
+        ],
+        "sha256": "25a4b0335e7069e8ab492dc3b32c3de793b3f2ba05f21e9bf0d1890ac4792901"
+      },
+      "outcome": {
+        "dtype": "<f4",
+        "shape": [
+          4129
+        ],
+        "sha256": "28ca6e7faeacd69ee4b4dca5dfe2dccd0cfba9c1e6f0d240d9a0c2cb77009fec"
+      },
+      "aux": {
+        "dtype": "<f4",
+        "shape": [
+          4129,
+          2
+        ],
+        "sha256": "1715e28c960a973fad0505717eeb04be84337be37078abf1797e573f7f8f242e"
+      },
+      "aux_mask": {
+        "dtype": "<f4",
+        "shape": [
+          4129
+        ],
+        "sha256": "89fec712886d5711e77875bce2a19ebf6d304ce8dd62512c6423e13f106e459d"
+      },
+      "match_id": {
+        "dtype": "<i8",
+        "shape": [
+          4129
+        ],
+        "sha256": "3114c8c5b6509dfe30e4923310bdd32a4dfb19090687e4edf0e848addf13b953"
+      },
+      "patch": {
+        "dtype": "<i8",
+        "shape": [
+          4129
+        ],
+        "sha256": "25c4b2f67b46eb78660632466ebc3c17cd8508fa387043d7dc92389f9a416c2d"
+      },
+      "start_time": {
+        "dtype": "<i8",
+        "shape": [
+          4129
+        ],
+        "sha256": "a7152bd08924cbedd9b005cac3ebc98be4868de3be3bf5e60f609e98b5fb1745"
+      }
+    },
+    "historical/test_40m.npz": {
+      "nodes": {
+        "dtype": "<f4",
+        "shape": [
+          1563,
+          10,
+          20
+        ],
+        "sha256": "0eeac144155eb4d65d89bcb68c32c705d438422033cf2390b58c2204ed7ab3cb"
+      },
+      "heroes": {
+        "dtype": "<i8",
+        "shape": [
+          1563,
+          10
+        ],
+        "sha256": "a6b38e1067ca08af8710e4c6f17cf4f4aea607501c26f683c2c436dcd12b5359"
+      },
+      "edges": {
+        "dtype": "<f4",
+        "shape": [
+          1563,
+          10,
+          10,
+          2
+        ],
+        "sha256": "b51086a0506bb2e55841d709c7b67189e04ac0a668d71b7ae73046ddbd7df5b2"
+      },
+      "roles": {
+        "dtype": "<f4",
+        "shape": [
+          1563,
+          10
+        ],
+        "sha256": "472b8011e5bad5cb4b081f495de1e341337f4aac5e7825e5d237a1ac85a36105"
+      },
+      "sequence": {
+        "dtype": "<f4",
+        "shape": [
+          1563,
+          41,
+          4
+        ],
+        "sha256": "4e917741285b2ee342560a9191baa82ffe4ff5aaf7e03bdf9b0aef4b84bd8fcc"
+      },
+      "outcome": {
+        "dtype": "<f4",
+        "shape": [
+          1563
+        ],
+        "sha256": "b74b4cc52195890574017a0e6360cb35e9e4d6e7432fb183485031a6df1dd373"
+      },
+      "aux": {
+        "dtype": "<f4",
+        "shape": [
+          1563,
+          2
+        ],
+        "sha256": "8092c412337ad589fce396b77602d976b4893a431ef403809af5e4fdc3fc98f0"
+      },
+      "aux_mask": {
+        "dtype": "<f4",
+        "shape": [
+          1563
+        ],
+        "sha256": "8547dca9d7ba21c2c537e922abff42606e8ec677cd1874734c83a8f4b5619409"
+      },
+      "match_id": {
+        "dtype": "<i8",
+        "shape": [
+          1563
+        ],
+        "sha256": "384cf5904189b51e2fed132a081850347847f126eb81bcd5ac94a9066bed297b"
+      },
+      "patch": {
+        "dtype": "<i8",
+        "shape": [
+          1563
+        ],
+        "sha256": "d514e68bcb0f739e9b191967e68b7cc02aeba0403f354d1714167e770cb46a67"
+      },
+      "start_time": {
+        "dtype": "<i8",
+        "shape": [
+          1563
+        ],
+        "sha256": "c3afc729c532ab9454621b16e125966662b4d20061bad888ef41300eadd6c776"
+      }
+    },
+    "historical/train_10m.npz": {
+      "nodes": {
+        "dtype": "<f4",
+        "shape": [
+          34906,
+          10,
+          20
+        ],
+        "sha256": "54692f73d7385ea4282b1130a38687135a87e4ff13e88d776fc6b8533cfb5eaf"
+      },
+      "heroes": {
+        "dtype": "<i8",
+        "shape": [
+          34906,
+          10
+        ],
+        "sha256": "9f9763d51dc918a344ef72fdb8b0b03ba199d4c46274505c51a972dc61be15dd"
+      },
+      "edges": {
+        "dtype": "<f4",
+        "shape": [
+          34906,
+          10,
+          10,
+          2
+        ],
+        "sha256": "44a0062e533f204e2ef24d3842c1ff3bca300692ab06de289ed456e0f5d727e8"
+      },
+      "roles": {
+        "dtype": "<f4",
+        "shape": [
+          34906,
+          10
+        ],
+        "sha256": "54b34fb237be9e70bf443eefbc9131b8d7dbe1abe57cf912bc6507b479749162"
+      },
+      "sequence": {
+        "dtype": "<f4",
+        "shape": [
+          34906,
+          11,
+          4
+        ],
+        "sha256": "fa0213e728bf4fc206942af2cb98203339a7ba0bc7307a48c7379b9b9a7cb387"
+      },
+      "outcome": {
+        "dtype": "<f4",
+        "shape": [
+          34906
+        ],
+        "sha256": "ab7a13274559dd3bfb2976f67640ef90462b31ba10643f1adadde9d95ef6f2a9"
+      },
+      "aux": {
+        "dtype": "<f4",
+        "shape": [
+          34906,
+          2
+        ],
+        "sha256": "669a7978f00dda71bb6bf4cc53369cf57834e68197d0dc6c4438b4bd60e571a1"
+      },
+      "aux_mask": {
+        "dtype": "<f4",
+        "shape": [
+          34906
+        ],
+        "sha256": "8f6659a736bc1a30e794cd7ca5dc6fed65898a9f436afa4ad5f125e9f354143f"
+      },
+      "match_id": {
+        "dtype": "<i8",
+        "shape": [
+          34906
+        ],
+        "sha256": "2471cf33406c6564a6c15b7b87ceda8244307b3e2e5369518f8c682db602c32b"
+      },
+      "patch": {
+        "dtype": "<i8",
+        "shape": [
+          34906
+        ],
+        "sha256": "e669a1c3e900b2c07178367fd9a638e61e3f2e2d545d1de9b29f38656d8d0e30"
+      },
+      "start_time": {
+        "dtype": "<i8",
+        "shape": [
+          34906
+        ],
+        "sha256": "baed72eaad93449d3caabf0c381e54e2a065e562e640644e185e6ffd29fdb43f"
+      }
+    },
+    "historical/train_20m.npz": {
+      "nodes": {
+        "dtype": "<f4",
+        "shape": [
+          33557,
+          10,
+          20
+        ],
+        "sha256": "997053a9c986523d375e87a0e57139bcec18654395550f57b98623dfa6344dc0"
+      },
+      "heroes": {
+        "dtype": "<i8",
+        "shape": [
+          33557,
+          10
+        ],
+        "sha256": "6ab42e6440df1cd623e7a8abeca731460a7d5061f1b0536828d6b7305b961d50"
+      },
+      "edges": {
+        "dtype": "<f4",
+        "shape": [
+          33557,
+          10,
+          10,
+          2
+        ],
+        "sha256": "5c392da00fb1efa418d3d3261e41088f847b2230e56010364ab30cda2e5e75d8"
+      },
+      "roles": {
+        "dtype": "<f4",
+        "shape": [
+          33557,
+          10
+        ],
+        "sha256": "edde3ed08bc323ab6f600299a6db04fda87d78e8605678005984a9fd53b04292"
+      },
+      "sequence": {
+        "dtype": "<f4",
+        "shape": [
+          33557,
+          21,
+          4
+        ],
+        "sha256": "4ed041dd45723e29d36db4bd6e74574ef1ad860c4a7a2bd52344a8a3fb77f0a1"
+      },
+      "outcome": {
+        "dtype": "<f4",
+        "shape": [
+          33557
+        ],
+        "sha256": "f1adcc4c4d8ccfa7406f8ec40028e96f91c3d2b333ebe62835135a898f9f7f20"
+      },
+      "aux": {
+        "dtype": "<f4",
+        "shape": [
+          33557,
+          2
+        ],
+        "sha256": "f7ace453b08c282b71497c858aac11f527c25592002af68c5226cd8358814215"
+      },
+      "aux_mask": {
+        "dtype": "<f4",
+        "shape": [
+          33557
+        ],
+        "sha256": "1b1a41e7c119baa36be4e3e4d7eb46f131efc9dede836276122c28223b6d0821"
+      },
+      "match_id": {
+        "dtype": "<i8",
+        "shape": [
+          33557
+        ],
+        "sha256": "937badf883a9cc244b0e69e697319a154529ae0a61db49a0bc64700f0654de4b"
+      },
+      "patch": {
+        "dtype": "<i8",
+        "shape": [
+          33557
+        ],
+        "sha256": "6368ff99d9ed6ff6b3087f7f82bc729a15372bf75fda4a360a6366e603575048"
+      },
+      "start_time": {
+        "dtype": "<i8",
+        "shape": [
+          33557
+        ],
+        "sha256": "18d71bf876fa36f4d09348cb7c3621a4e1337f28450fc9e5474658a1ddf3738b"
+      }
+    },
+    "historical/train_30m.npz": {
+      "nodes": {
+        "dtype": "<f4",
+        "shape": [
+          20048,
+          10,
+          20
+        ],
+        "sha256": "ebfff55d6fc1f0913b8c18c1ee1faa82f295fffe7b70517273ea06974c203240"
+      },
+      "heroes": {
+        "dtype": "<i8",
+        "shape": [
+          20048,
+          10
+        ],
+        "sha256": "92dc79f81a3a657413ca133296c371696e4c97077a36a5b85861788d7ae43887"
+      },
+      "edges": {
+        "dtype": "<f4",
+        "shape": [
+          20048,
+          10,
+          10,
+          2
+        ],
+        "sha256": "20a71086d7e06c86263aa4a1b4a55b63e570fc81d96a52e9cba6c00ae2f3f69b"
+      },
+      "roles": {
+        "dtype": "<f4",
+        "shape": [
+          20048,
+          10
+        ],
+        "sha256": "bdb6a0589ac07f605206a261fb044cb73b55c2738e40f2acb6340b8863d5077d"
+      },
+      "sequence": {
+        "dtype": "<f4",
+        "shape": [
+          20048,
+          31,
+          4
+        ],
+        "sha256": "e2724fa787c7cee55b66abe2a372ce4b25d88572a3fae342edcae8f24c67480b"
+      },
+      "outcome": {
+        "dtype": "<f4",
+        "shape": [
+          20048
+        ],
+        "sha256": "d9630590a4cf85572dcaec17ba3738a589cabd37f9c3a36fb691d8a0ffddb302"
+      },
+      "aux": {
+        "dtype": "<f4",
+        "shape": [
+          20048,
+          2
+        ],
+        "sha256": "d61669407d17be67dda3734b1cee97767fb41503136ba8edb69c2e5c9e5d890d"
+      },
+      "aux_mask": {
+        "dtype": "<f4",
+        "shape": [
+          20048
+        ],
+        "sha256": "f8cfd5f3ccb99341a5d6794897c2656f1987021d29410681064dcd1637f089b3"
+      },
+      "match_id": {
+        "dtype": "<i8",
+        "shape": [
+          20048
+        ],
+        "sha256": "800ce9456b78d6709687f892074804933949adc07146f735b51a06e080c7feb7"
+      },
+      "patch": {
+        "dtype": "<i8",
+        "shape": [
+          20048
+        ],
+        "sha256": "7a28db432e07412962c51728580efa86e5b78c4457f3f6cbc2cb5880c1303c94"
+      },
+      "start_time": {
+        "dtype": "<i8",
+        "shape": [
+          20048
+        ],
+        "sha256": "9e8cf0cb93cca6a0d732b79b96f60ed3fbfa3511ca1f9a67b7d92a5e622303e3"
+      }
+    },
+    "historical/train_40m.npz": {
+      "nodes": {
+        "dtype": "<f4",
+        "shape": [
+          6765,
+          10,
+          20
+        ],
+        "sha256": "474fc749217a6eab9cfe036179859d537b0ea5eaec70aa817cd4c010e833ce92"
+      },
+      "heroes": {
+        "dtype": "<i8",
+        "shape": [
+          6765,
+          10
+        ],
+        "sha256": "a6b9db7926e83981940c4c3faf9b40ec0bd334afe77dc4d2361338abb3e23218"
+      },
+      "edges": {
+        "dtype": "<f4",
+        "shape": [
+          6765,
+          10,
+          10,
+          2
+        ],
+        "sha256": "2763e7a4649e0d217bda525a56b6d756145715646ca05b9a86245fc36a3f66eb"
+      },
+      "roles": {
+        "dtype": "<f4",
+        "shape": [
+          6765,
+          10
+        ],
+        "sha256": "26c9b2fbae39a548a51a1964a500d31c02a2967987b0db3828a38bc1398da2b8"
+      },
+      "sequence": {
+        "dtype": "<f4",
+        "shape": [
+          6765,
+          41,
+          4
+        ],
+        "sha256": "e25ac05d44e9ca00fb6e8c751fd2b188b64a15094310b69a071a9f68a4e0b455"
+      },
+      "outcome": {
+        "dtype": "<f4",
+        "shape": [
+          6765
+        ],
+        "sha256": "bcbee38596fe3f10c82374146798523cb2b43effbca229d2a68153e9aeea8eff"
+      },
+      "aux": {
+        "dtype": "<f4",
+        "shape": [
+          6765,
+          2
+        ],
+        "sha256": "8784d22c3737c3e9afa16ac931ef79f71574154c721d1e4b25d0be70795cbec4"
+      },
+      "aux_mask": {
+        "dtype": "<f4",
+        "shape": [
+          6765
+        ],
+        "sha256": "ac76ee4c332385445762dc265c9c740710abc88107032700b59d32b7a0cd0d91"
+      },
+      "match_id": {
+        "dtype": "<i8",
+        "shape": [
+          6765
+        ],
+        "sha256": "33155f279a5b63e127d6ec7fb144b9f408a85adace99277b638c74c2ee34eff2"
+      },
+      "patch": {
+        "dtype": "<i8",
+        "shape": [
+          6765
+        ],
+        "sha256": "547f3dbe8b8c96b29960fcbbbcbbe2ac743be32927c372a10313fb292a9ba2ba"
+      },
+      "start_time": {
+        "dtype": "<i8",
+        "shape": [
+          6765
+        ],
+        "sha256": "80d75492ad217c69312e3baea8d9562e331e30c449e1a0448704df826ab0d125"
+      }
+    },
+    "historical/validation_10m.npz": {
+      "nodes": {
+        "dtype": "<f4",
+        "shape": [
+          7482,
+          10,
+          20
+        ],
+        "sha256": "b7ee81ccea4acf691daef33907f814778ecc0cfdb6f7896ddbf05a4c723f8369"
+      },
+      "heroes": {
+        "dtype": "<i8",
+        "shape": [
+          7482,
+          10
+        ],
+        "sha256": "62c51994b11a4b0ed371727450e829abaa076b824b33cda11f82ea7d8bd295fd"
+      },
+      "edges": {
+        "dtype": "<f4",
+        "shape": [
+          7482,
+          10,
+          10,
+          2
+        ],
+        "sha256": "d1d0bb58c8d031606ec1451ea37f6c4cf01d0cf3433cc312a537198c41557249"
+      },
+      "roles": {
+        "dtype": "<f4",
+        "shape": [
+          7482,
+          10
+        ],
+        "sha256": "0b35949b8119a78264d65af657947f78eef5910c68bc8111b06735a64266bc86"
+      },
+      "sequence": {
+        "dtype": "<f4",
+        "shape": [
+          7482,
+          11,
+          4
+        ],
+        "sha256": "5fa69e336aaf42ee54af471a35a95b886a7be69b8997fe896b6c7946bf558901"
+      },
+      "outcome": {
+        "dtype": "<f4",
+        "shape": [
+          7482
+        ],
+        "sha256": "48584118c3d01ebc2246367a18fac87ec0a7587fca4eb8c6fe70293754a20b82"
+      },
+      "aux": {
+        "dtype": "<f4",
+        "shape": [
+          7482,
+          2
+        ],
+        "sha256": "39f256e83f1f5820dd1bead62650799e3f90fcea9b177075e340cd0f95954f74"
+      },
+      "aux_mask": {
+        "dtype": "<f4",
+        "shape": [
+          7482
+        ],
+        "sha256": "47788837b7fa6edf9ec4eacf22b496ffd479040eafbe13154bbe2391ec1a8a54"
+      },
+      "match_id": {
+        "dtype": "<i8",
+        "shape": [
+          7482
+        ],
+        "sha256": "cbd46d081f0f91433bc03b5f498edcb855afed5ba6673dea27334a5cd4b2ec35"
+      },
+      "patch": {
+        "dtype": "<i8",
+        "shape": [
+          7482
+        ],
+        "sha256": "543fd208cc81a55fa7e2da37f798206aa6eb8099d7b7413db1bf2309cfc3093f"
+      },
+      "start_time": {
+        "dtype": "<i8",
+        "shape": [
+          7482
+        ],
+        "sha256": "2e62d0a665c1463855caa1ba3b93fd9da25e8afe17586049fc9648e25e95c03c"
+      }
+    },
+    "historical/validation_20m.npz": {
+      "nodes": {
+        "dtype": "<f4",
+        "shape": [
+          7206,
+          10,
+          20
+        ],
+        "sha256": "1dfe6d7b5a5d63f6f4d101ccaf97ce4271ba43a6efaa4335c14f649350221368"
+      },
+      "heroes": {
+        "dtype": "<i8",
+        "shape": [
+          7206,
+          10
+        ],
+        "sha256": "5be43ed8e1c7e7e8ef1e8620f936255f5217d61a74924e82b596ae6d867060c3"
+      },
+      "edges": {
+        "dtype": "<f4",
+        "shape": [
+          7206,
+          10,
+          10,
+          2
+        ],
+        "sha256": "c783ed9c2d2743518d2d21c420aa5a1f5e9e9a4815153b85a36288ef07e6ef01"
+      },
+      "roles": {
+        "dtype": "<f4",
+        "shape": [
+          7206,
+          10
+        ],
+        "sha256": "3d6bf0139c44d0d0b02c4e73d505c84faec7e0c4ed8883bb4dd5e53b6ee7952b"
+      },
+      "sequence": {
+        "dtype": "<f4",
+        "shape": [
+          7206,
+          21,
+          4
+        ],
+        "sha256": "f38a3244a1927c178baf2f6c6bcd4cc67d64c24ea8260ee5544248af3180c026"
+      },
+      "outcome": {
+        "dtype": "<f4",
+        "shape": [
+          7206
+        ],
+        "sha256": "3c3917e4de9101b963d2063101c92c13f4e3e5659bb74bc1b142277dd99c3b83"
+      },
+      "aux": {
+        "dtype": "<f4",
+        "shape": [
+          7206,
+          2
+        ],
+        "sha256": "831e1ae440de67fffbff1102abe97d48d36899d1a982cbed5226c14e50034099"
+      },
+      "aux_mask": {
+        "dtype": "<f4",
+        "shape": [
+          7206
+        ],
+        "sha256": "a050d7c1d09dfdc3728169b590c83534c05bbbdfe03ea0ec700151af9a305124"
+      },
+      "match_id": {
+        "dtype": "<i8",
+        "shape": [
+          7206
+        ],
+        "sha256": "8fa00b45dc52448ae63ee3c42626b785acbe0f3a848bf37109d85b7b93b7e9bd"
+      },
+      "patch": {
+        "dtype": "<i8",
+        "shape": [
+          7206
+        ],
+        "sha256": "571fb128360ba899693218f93e28746e850c3057eabec967aa7069b37ebd7382"
+      },
+      "start_time": {
+        "dtype": "<i8",
+        "shape": [
+          7206
+        ],
+        "sha256": "871b8ba80ba909ad13f646cde93c427d225145ddf1b31bb9c6f3ce430c5bea62"
+      }
+    },
+    "historical/validation_30m.npz": {
+      "nodes": {
+        "dtype": "<f4",
+        "shape": [
+          4457,
+          10,
+          20
+        ],
+        "sha256": "1580365f277c73eac21123a5a19968c52758c430afcb270f23ab94334617e1da"
+      },
+      "heroes": {
+        "dtype": "<i8",
+        "shape": [
+          4457,
+          10
+        ],
+        "sha256": "88dbe3b74c01af6ef1260160be849071d97d8fa550ca010a93e99ea817c1fa8c"
+      },
+      "edges": {
+        "dtype": "<f4",
+        "shape": [
+          4457,
+          10,
+          10,
+          2
+        ],
+        "sha256": "684f117e60fb52ded69f268cd4550a2235944df0ce7d8991d592eca41a73b031"
+      },
+      "roles": {
+        "dtype": "<f4",
+        "shape": [
+          4457,
+          10
+        ],
+        "sha256": "be09172cf7c5ac32f04820cba69ec51c760ff0c8f6a332ce9443bb8d0c74843f"
+      },
+      "sequence": {
+        "dtype": "<f4",
+        "shape": [
+          4457,
+          31,
+          4
+        ],
+        "sha256": "3e66fdf9740b5c7026e31b1b54899e3e1e6c7c7d8573006c7bcd46907bccd3c4"
+      },
+      "outcome": {
+        "dtype": "<f4",
+        "shape": [
+          4457
+        ],
+        "sha256": "85a8486133a221c8dffbe795eebd6c6c15ddf288c9ffe7b0c13f7ee51bb6d8a8"
+      },
+      "aux": {
+        "dtype": "<f4",
+        "shape": [
+          4457,
+          2
+        ],
+        "sha256": "b8d2c3c3a5dd9eec3356a8b51980c856ae91e95a23f7f43acf6394d0bb7b5a64"
+      },
+      "aux_mask": {
+        "dtype": "<f4",
+        "shape": [
+          4457
+        ],
+        "sha256": "049dfe828490fdea67f0ebad910307a72e9b8f67769563113f8508d0c3b95f8e"
+      },
+      "match_id": {
+        "dtype": "<i8",
+        "shape": [
+          4457
+        ],
+        "sha256": "a8f10e498166622b980c42080501db9a8b3bf37866cbe7a1fc1dd8529a9adea4"
+      },
+      "patch": {
+        "dtype": "<i8",
+        "shape": [
+          4457
+        ],
+        "sha256": "2c3c853d510d9fea6d200e95400cd3b8d9aaab5da274438e8612d21f51c4af80"
+      },
+      "start_time": {
+        "dtype": "<i8",
+        "shape": [
+          4457
+        ],
+        "sha256": "8e318e433d808718039e0ef24818ac8116b8df67a36a923ef206b89cde582ed4"
+      }
+    },
+    "historical/validation_40m.npz": {
+      "nodes": {
+        "dtype": "<f4",
+        "shape": [
+          1650,
+          10,
+          20
+        ],
+        "sha256": "ecab4769c2043944e9f51989b92bcb81f0be86e637cef1d7204b12d5f68f92c2"
+      },
+      "heroes": {
+        "dtype": "<i8",
+        "shape": [
+          1650,
+          10
+        ],
+        "sha256": "824fedfd02a7405942fb802f97d7f07d581b4ce7991c88ac832814a38db2ce21"
+      },
+      "edges": {
+        "dtype": "<f4",
+        "shape": [
+          1650,
+          10,
+          10,
+          2
+        ],
+        "sha256": "e376250d774747d75fe405fc5c1140da99db1a89be35ad6c182f5adace80d36e"
+      },
+      "roles": {
+        "dtype": "<f4",
+        "shape": [
+          1650,
+          10
+        ],
+        "sha256": "489097bc0a312333cf16c84b727f49c7a91187f1c3b226a4c32b94e47e722b73"
+      },
+      "sequence": {
+        "dtype": "<f4",
+        "shape": [
+          1650,
+          41,
+          4
+        ],
+        "sha256": "fd2bbd4ebb1c6bfb34d333860661bccdba882ec9e929ce68f80ea3f446901c44"
+      },
+      "outcome": {
+        "dtype": "<f4",
+        "shape": [
+          1650
+        ],
+        "sha256": "e2d7b0957931ad676afdf833401898b5a6fbec4451c65e3aaae2a72404078f5f"
+      },
+      "aux": {
+        "dtype": "<f4",
+        "shape": [
+          1650,
+          2
+        ],
+        "sha256": "543307ec58f6591188057b44f711eda6b83e3e68d7c116ca6b48e24ecbf8af71"
+      },
+      "aux_mask": {
+        "dtype": "<f4",
+        "shape": [
+          1650
+        ],
+        "sha256": "9dda7b87d450e506afaadc528e1c1659deffe1cb52c4491a613b2b1e93b7eed2"
+      },
+      "match_id": {
+        "dtype": "<i8",
+        "shape": [
+          1650
+        ],
+        "sha256": "80f0ef636cbc2e8b9cac3944480eab16e15416042d7b7ea1d2e9f299a8749af0"
+      },
+      "patch": {
+        "dtype": "<i8",
+        "shape": [
+          1650
+        ],
+        "sha256": "38a09acad42dd4f9ed020e72dfd52c8587b794cbd219efe239781b4d35a7177b"
+      },
+      "start_time": {
+        "dtype": "<i8",
+        "shape": [
+          1650
+        ],
+        "sha256": "924390922dadb9b727a770809b3e5fd428e667fb71dbc305ceef1081f9d5e66e"
+      }
+    },
+    "later/10m.npz": {
+      "nodes": {
+        "dtype": "<f4",
+        "shape": [
+          1195,
+          10,
+          20
+        ],
+        "sha256": "a01d6557f9cec7817d02fa2ee89e6d379a8e40272e452e634627eeabbc3812e9"
+      },
+      "heroes": {
+        "dtype": "<i8",
+        "shape": [
+          1195,
+          10
+        ],
+        "sha256": "3bafbcb1466ca87427244d01a144b90a700f1995ffd6aa2c2afc726ca256e814"
+      },
+      "edges": {
+        "dtype": "<f4",
+        "shape": [
+          1195,
+          10,
+          10,
+          2
+        ],
+        "sha256": "4a5ef753b7b1d6f142867fd93b5d4bca7a601182d3dce23dcde19ff0d8a6a192"
+      },
+      "roles": {
+        "dtype": "<f4",
+        "shape": [
+          1195,
+          10
+        ],
+        "sha256": "3567824333051ce004c827401353fc3e790cf800ad44b4f3d06964b25c701130"
+      },
+      "sequence": {
+        "dtype": "<f4",
+        "shape": [
+          1195,
+          11,
+          4
+        ],
+        "sha256": "704d8abdbc6ecb4feabbcf8ba310405befadce08e0f81e9e7ba456adcd1ff66f"
+      },
+      "outcome": {
+        "dtype": "<f4",
+        "shape": [
+          1195
+        ],
+        "sha256": "3bce14c3788968e6c3be3b88af4d85f86f281eab2276a3d2eb0e3be751dc7529"
+      },
+      "aux": {
+        "dtype": "<f4",
+        "shape": [
+          1195,
+          2
+        ],
+        "sha256": "b39cff9dd434cd9092db0ec0e463e42f6800c8d020f05cf071f54a595c79eac5"
+      },
+      "aux_mask": {
+        "dtype": "<f4",
+        "shape": [
+          1195
+        ],
+        "sha256": "1a97f559c6c8d0286bf49941fabd5c94e522e5d8126596ee41a0dc6e668d2fcd"
+      },
+      "match_id": {
+        "dtype": "<i8",
+        "shape": [
+          1195
+        ],
+        "sha256": "074665443aef05967c22d00048eddf7fd367d39318b49d07584c7a96a1c31589"
+      },
+      "patch": {
+        "dtype": "<i8",
+        "shape": [
+          1195
+        ],
+        "sha256": "ff8f357f96a647b97dbc484282a03c514c86485d54fefac79e2fd8eeab5a3c94"
+      },
+      "start_time": {
+        "dtype": "<i8",
+        "shape": [
+          1195
+        ],
+        "sha256": "bd9c00a2de42bf835b395c5837132d03f85b66afe33d55cb6eefd53c4a160e4a"
+      }
+    },
+    "later/20m.npz": {
+      "nodes": {
+        "dtype": "<f4",
+        "shape": [
+          1163,
+          10,
+          20
+        ],
+        "sha256": "8176ff61500bd71ee791154cf5825be27d847578a5f88c0371c69bda69184772"
+      },
+      "heroes": {
+        "dtype": "<i8",
+        "shape": [
+          1163,
+          10
+        ],
+        "sha256": "46b9138fff22770abd85e988efd3c1ce6cd19824601e52631574a4a5089eefa4"
+      },
+      "edges": {
+        "dtype": "<f4",
+        "shape": [
+          1163,
+          10,
+          10,
+          2
+        ],
+        "sha256": "fb18a12a0adeade036635b08ad1b77524c82c3057c9c447f77d4e41a261daa9e"
+      },
+      "roles": {
+        "dtype": "<f4",
+        "shape": [
+          1163,
+          10
+        ],
+        "sha256": "dae2f9e96d321a56ce85ff252f4f3f5c5440acb0aa92e3b97c5fde0171037b31"
+      },
+      "sequence": {
+        "dtype": "<f4",
+        "shape": [
+          1163,
+          21,
+          4
+        ],
+        "sha256": "fdb472ce32319b5dcc1c35aee7dcd0c8363ac5fb3744f7cd5149faeacd310f19"
+      },
+      "outcome": {
+        "dtype": "<f4",
+        "shape": [
+          1163
+        ],
+        "sha256": "bf222aedb001c1c1e845e8fb9c8bb9632d48b9be2dc66c5e61d6de4628737f12"
+      },
+      "aux": {
+        "dtype": "<f4",
+        "shape": [
+          1163,
+          2
+        ],
+        "sha256": "bad6bcc31741fa86a31c219dd5941c38e492a6af16bc1706aa3fb673ca0f7f70"
+      },
+      "aux_mask": {
+        "dtype": "<f4",
+        "shape": [
+          1163
+        ],
+        "sha256": "4cf5b569590a49fcb3d3ee567ede5d24708aa8c0e5b9ea1866fec87a44c5aee9"
+      },
+      "match_id": {
+        "dtype": "<i8",
+        "shape": [
+          1163
+        ],
+        "sha256": "ef4ac7c36ec40c0fc3d3a485a85f0ffc705f0c48254b7bfe9c40cd7c9e39e986"
+      },
+      "patch": {
+        "dtype": "<i8",
+        "shape": [
+          1163
+        ],
+        "sha256": "6a4e4b1c8d15bdd94d8cbbef1cd74e2a5a9bd78e0379c427d9c64dc96350c8e6"
+      },
+      "start_time": {
+        "dtype": "<i8",
+        "shape": [
+          1163
+        ],
+        "sha256": "7b04371eed9afb0454aef3d78373c807ba02774c602da44167b11471f107d038"
+      }
+    },
+    "later/30m.npz": {
+      "nodes": {
+        "dtype": "<f4",
+        "shape": [
+          1003,
+          10,
+          20
+        ],
+        "sha256": "4dd1647bbca2c9de60abdf571bfaf091c81affeb90742fc1b27315484b477d4f"
+      },
+      "heroes": {
+        "dtype": "<i8",
+        "shape": [
+          1003,
+          10
+        ],
+        "sha256": "61a191484e0aa82eca68ff123e5d7688ee733620f6db1f4611679c31b33d4a19"
+      },
+      "edges": {
+        "dtype": "<f4",
+        "shape": [
+          1003,
+          10,
+          10,
+          2
+        ],
+        "sha256": "870dd2fe37b24c7fbd0356415fcdc4127fe00a9c6e67cda58b7fee8acd00d9cf"
+      },
+      "roles": {
+        "dtype": "<f4",
+        "shape": [
+          1003,
+          10
+        ],
+        "sha256": "0bd7d2b95772af23a8d007802b447536c6a24327aeaa829c2340888df712f44f"
+      },
+      "sequence": {
+        "dtype": "<f4",
+        "shape": [
+          1003,
+          31,
+          4
+        ],
+        "sha256": "9630be403413345f63fef4f33ff4f172907dda18e297612533b178a62bc2ec96"
+      },
+      "outcome": {
+        "dtype": "<f4",
+        "shape": [
+          1003
+        ],
+        "sha256": "390bbc2b1766d87794bac2e01556af434037b822881db5e3f266347dde373e22"
+      },
+      "aux": {
+        "dtype": "<f4",
+        "shape": [
+          1003,
+          2
+        ],
+        "sha256": "9071cfcee7de03f37be85825822952ffdf759f659a71d090dc0682e51fe4c2bf"
+      },
+      "aux_mask": {
+        "dtype": "<f4",
+        "shape": [
+          1003
+        ],
+        "sha256": "f0fd3e06afcb10cd969ee8c859de686abf9cff6bc1df18c7a80f15c52c48b304"
+      },
+      "match_id": {
+        "dtype": "<i8",
+        "shape": [
+          1003
+        ],
+        "sha256": "cfebe69a670cfe2814ae77812ddb482c83f72916721715a19c44a1d67dc0676a"
+      },
+      "patch": {
+        "dtype": "<i8",
+        "shape": [
+          1003
+        ],
+        "sha256": "37499ee557dbb19223a796d85c07c2db048e89273e9ff4a7a8a1004decff3ca9"
+      },
+      "start_time": {
+        "dtype": "<i8",
+        "shape": [
+          1003
+        ],
+        "sha256": "f5ec17f6d2d5cce31ca92a62aa8f72153f2d42dd6c6611e44e71d1a36a5bd173"
+      }
+    },
+    "later/40m.npz": {
+      "nodes": {
+        "dtype": "<f4",
+        "shape": [
+          609,
+          10,
+          20
+        ],
+        "sha256": "897d6f791c010ce8ff9267b9238b577ef75ddd74e8c584962ff80fb116e793d5"
+      },
+      "heroes": {
+        "dtype": "<i8",
+        "shape": [
+          609,
+          10
+        ],
+        "sha256": "ccd130c7c845c1cf7eb28414a944ebd040859135ffaa822ec43e000a86457093"
+      },
+      "edges": {
+        "dtype": "<f4",
+        "shape": [
+          609,
+          10,
+          10,
+          2
+        ],
+        "sha256": "260500dde2b0c1e55e588b5f2ac0f432fd6a3facbb222d7fc9b4dc1b696c1275"
+      },
+      "roles": {
+        "dtype": "<f4",
+        "shape": [
+          609,
+          10
+        ],
+        "sha256": "349774cc521ea66898644e32b6fa9756dd95e485014e7c17daa99df52b9815eb"
+      },
+      "sequence": {
+        "dtype": "<f4",
+        "shape": [
+          609,
+          41,
+          4
+        ],
+        "sha256": "656550e2523c9b62ca72dd81ea6bf6a8388df664b186b31b5641c90019b963d6"
+      },
+      "outcome": {
+        "dtype": "<f4",
+        "shape": [
+          609
+        ],
+        "sha256": "4de0aa48b698bf77363c91a8f3bdfb42eeab2de5c57cfe7731b80c5d2222c0d5"
+      },
+      "aux": {
+        "dtype": "<f4",
+        "shape": [
+          609,
+          2
+        ],
+        "sha256": "bc968f7ffbfa73f213c45bbe9b9f52924ef0007c7b8cde30805578f0880622cf"
+      },
+      "aux_mask": {
+        "dtype": "<f4",
+        "shape": [
+          609
+        ],
+        "sha256": "c9023943159933f05e307d9f8119631ed6db1040757a39bc3ee2b87baf021448"
+      },
+      "match_id": {
+        "dtype": "<i8",
+        "shape": [
+          609
+        ],
+        "sha256": "19bcfb4a61aa80530769c2fee1e47408e7f4c092b30a38017fa417756a153d56"
+      },
+      "patch": {
+        "dtype": "<i8",
+        "shape": [
+          609
+        ],
+        "sha256": "f847518979b7d65a4dac23dcab63d602f61d09b76dbc8793cf2369c1c2d8643a"
+      },
+      "start_time": {
+        "dtype": "<i8",
+        "shape": [
+          609
+        ],
+        "sha256": "8b7663bdd9ff43ba8b08af4ae5cddf79cd2af95f1c724b6f9f7400d5c41ebaa9"
+      }
+    }
+  }
+}
