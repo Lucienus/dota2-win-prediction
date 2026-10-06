@@ -25,4 +25,4 @@ NumPy, SciPy and PyTorch distributions can contain additional third-party compon
 
 ## Project code and data
 
-Project-authored code and explicitly listed software configuration/usage documentation are MIT-licensed by ******* ****; see LICENSE_SCOPE.md and CODE_LICENSE_SCOPE.json. This grant does not replace the third-party notices above. Match-derived arrays, predictions, splits and league mappings remain subject to a separate, unresolved redistribution review; see LICENSING_STATUS_ZH.md.
+Project-authored code and explicitly listed software configuration/usage documentation are MIT-licensed by ******* ****; see LICENSE_SCOPE.md and CODE_LICENSE_SCOPE.json. This grant does not replace the third-party notices above. Raw match records, feature arrays, predictions and weights are not bundled. Frozen selection metadata and hashes are supplied for reconstruction; no rights to provider data are granted. See DATA_ACCESS.md.

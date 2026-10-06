@@ -1,10 +1,10 @@
 # Dota 2 frozen-cohort reconstruction release
 
 Reconstruction release: reconstruction-2026-10-06.
-This version supersedes the code-only public candidate for future release planning.
+This version supersedes the earlier code-only package. Review access: https://anonymous.4open.science/r/dota2-win-prediction-08F8/
 Read RECONSTRUCTION_ZH.md for full Chinese instructions and limitations.
 
-The release candidate contains model definitions, complete feature-extraction, training, evaluation and table-generation scripts, and recorded environment versions. It also contains frozen historical train/validation/test match IDs, later-cohort inclusion and exclusion records, per-horizon match ordering, raw-file SHA-256 manifests and per-field feature hashes. A downloader retrieves only the listed IDs from OpenDota, logs failures and byte-hash differences, and does not replace missing matches. Original project code is licensed under MIT, with third-party notices retained. Raw match JSON, feature arrays, fitted purchase priors, match-level predictions and trained checkpoints remain local and are not bundled.
+The release contains model definitions, complete feature-extraction, training, evaluation and table-generation scripts, and recorded environment versions. It also contains frozen historical train/validation/test match IDs, later-cohort inclusion and exclusion records, per-horizon match ordering, raw-file SHA-256 manifests and per-field feature hashes. A downloader retrieves only the listed IDs from OpenDota, logs failures and byte-hash differences, and does not replace missing matches. Original project code is licensed under MIT, with third-party notices retained. Raw match JSON, feature arrays, fitted purchase priors, match-level predictions and trained checkpoints remain local and are not bundled.
 
 The reconstruction entry point fits purchase priors on the frozen historical training partition and checks rebuilt fields against frozen dtype, shape and content hashes. Changed raw bytes require an explicit override and are recorded separately. Hashes detect differences but cannot restore unavailable records; formatting changes can also alter raw-file hashes. Re-fetched data are not assumed equivalent to the original snapshot. Exact reproduction of the reported results requires matching inputs and the relevant execution conditions; a changed-data rerun must be reported separately.
 
@@ -52,7 +52,7 @@ Some tests require withheld original study artifacts and explicitly skip when ab
 During double-anonymous review, requests for locally retained materials are intended
 to go through the editorial office. After publication, contact the corresponding
 author. Transfers require assessment of applicable source-data terms; access is not
-guaranteed. This named public candidate is not yet an anonymous review copy.
+guaranteed. The author has checked the anonymous replacements in the review entry.
 
 Source API: https://docs.opendota.com/
 Journal guidance: https://transactions.games/submit/submission-guidelines

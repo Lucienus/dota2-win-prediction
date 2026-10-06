@@ -6,10 +6,12 @@
   "raw_records_bundled": false,
   "feature_arrays_bundled": false,
   "canonical_json_hashes_available": false,
-  "published": false,
+  "published": true,
   "license_note": "Original code MIT; metadata describes the authors frozen selection and hashes, not a grant of rights to provider data.",
   "sources": [
     "https://docs.opendota.com/",
     "https://transactions.games/submit/submission-guidelines"
-  ]
+  ],
+  "review_url": "https://anonymous.4open.science/r/dota2-win-prediction-08F8/",
+  "release_identifier": "reconstruction-2026-10-06"
 }

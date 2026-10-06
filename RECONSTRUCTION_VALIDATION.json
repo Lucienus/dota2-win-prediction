@@ -18,5 +18,7 @@
   "live_api_byte_hash_equal": false,
   "raw_or_features_bundled": false,
   "training_rerun_performed": false,
-  "github_or_anonymous_url_established": false
+  "github_or_anonymous_url_established": true,
+  "review_url": "https://anonymous.4open.science/r/dota2-win-prediction-08F8/",
+  "release_identifier": "reconstruction-2026-10-06"
 }
