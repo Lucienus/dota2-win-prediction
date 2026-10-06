@@ -1,0 +1,69 @@
+{
+  "full_feature_lr": {
+    "status": "configuration_only_not_trained",
+    "selected_runs": 12,
+    "candidate_fits": 36,
+    "pipeline": [
+      "StandardScaler(with_mean=True, with_std=True), fit on training only",
+      "LogisticRegression"
+    ],
+    "candidates_C_in_order": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "fixed": {
+      "solver": "lbfgs",
+      "l1_ratio": 0.0,
+      "fit_intercept": true,
+      "class_weight": null,
+      "max_iter": 5000,
+      "tol": 0.0001,
+      "random_state": "run_seed",
+      "warm_start": false
+    },
+    "convergence_policy": "Stop the cell on any ConvergenceWarning; record failure; no test-based solver/search changes",
+    "seed_caveat": "Deterministic solver may produce identical seeds; these are not independent data replicates"
+  },
+  "lightgbm": {
+    "status": "configuration_only_not_trained",
+    "selected_runs": 12,
+    "candidate_fits": 36,
+    "required_version": "4.7.0",
+    "installation_status_at_freeze": "not_installed",
+    "candidates_num_leaves_in_order": [
+      15,
+      31,
+      63
+    ],
+    "fixed": {
+      "boosting_type": "gbdt",
+      "objective": "binary",
+      "n_estimators": 200,
+      "learning_rate": 0.05,
+      "max_depth": -1,
+      "min_child_samples": 20,
+      "min_child_weight": 0.001,
+      "min_split_gain": 0.0,
+      "max_bin": 255,
+      "subsample_for_bin": 200000,
+      "subsample": 1.0,
+      "subsample_freq": 0,
+      "colsample_bytree": 1.0,
+      "reg_alpha": 0.0,
+      "reg_lambda": 0.0,
+      "class_weight": null,
+      "random_state": "run_seed",
+      "n_jobs": 4,
+      "device_type": "cpu",
+      "deterministic": true,
+      "force_col_wise": true
+    },
+    "preprocessing": "Same full feature array; no scaling; zeros remain ordinary values",
+    "early_stopping": false,
+    "runtime_gate": "Before training, install pinned version in isolated environment and smoke-test API on synthetic data; freeze runtime manifest; record amendment if unavailable",
+    "documentation": "https://lightgbm.readthedocs.io/en/stable/pythonapi/lightgbm.LGBMClassifier.html"
+  },
+  "selection": "Minimum validation log_loss independently per minute and seed; exact tie uses first candidate",
+  "test_policy": "Evaluate selected train-only fit once; no train+validation refit; no test/external tuning"
+}

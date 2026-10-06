@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+inputs/
+runs/
+*results/
+*.npz
+*.npy
+*.pt
+*.pth
+*.joblib
+*.zip
+raw_historical/
+raw_later/
+fetch_log.jsonl

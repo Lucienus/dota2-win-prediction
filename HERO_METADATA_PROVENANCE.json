@@ -1,0 +1,14 @@
+{
+  "file": "code/hero_metadata.json",
+  "sha256": "520a3ae33260593f54d5d749a92022d7d5af0ed60d8bebec8e81ff7eb12104ad",
+  "matched_upstream_commit": "b4b5a8299de5f3e0704e62fdd04a6a54c4d4548e",
+  "upstream_path": "build/heroes.json",
+  "match_kind": "byte-identical",
+  "verified_date": "2026-10-05",
+  "source_url": "https://raw.githubusercontent.com/odota/dotaconstants/b4b5a8299de5f3e0704e62fdd04a6a54c4d4548e/build/heroes.json",
+  "license_url": "https://raw.githubusercontent.com/odota/dotaconstants/b4b5a8299de5f3e0704e62fdd04a6a54c4d4548e/LICENSE",
+  "license_sha256": "13d8ee5053b6b9da5448fa298ff1af56cc3994b945e9739a5a38821ea7463abf",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2017 The OpenDota Project",
+  "boundary": "Evidence of matching snapshot and repository license, not original acquisition time or a grant for match data or Valve imagery."
+}

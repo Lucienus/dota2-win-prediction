@@ -1,0 +1,241 @@
+{
+  "checked_date": "2026-10-05",
+  "method": "Installed distribution METADATA and license-file hashes from clean environment",
+  "dependencies": [
+    {
+      "name": "numpy",
+      "version": "2.5.3",
+      "license_expression": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+      "license_field_first_lines": [],
+      "classifiers": [],
+      "project_urls": [
+        "homepage, https://numpy.org",
+        "documentation, https://numpy.org/doc/",
+        "source, https://github.com/numpy/numpy",
+        "download, https://pypi.org/project/numpy/#files",
+        "tracker, https://github.com/numpy/numpy/issues",
+        "release notes, https://numpy.org/doc/stable/release"
+      ],
+      "license_files": [
+        {
+          "path": "numpy-2.5.3.dist-info/licenses/LICENSE.txt",
+          "sha256": "a804dff0ead9fadc5293456410bcbfc32bf024be9c4513459663fb7b442d2341"
+        },
+        {
+          "path": "numpy-2.5.3.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+          "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+        },
+        {
+          "path": "numpy-2.5.3.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+          "sha256": "aea41976c720f91bd19725c16916a1ace40eb1ea42620d340e587a5de4bbcea0"
+        },
+        {
+          "path": "numpy-2.5.3.dist-info/licenses/numpy/_core/src/highway/LICENSE",
+          "sha256": "d208152e2777ffd0126eacc1bd21c0320d69e4e6b622d21a2a12a47e8ef73763"
+        },
+        {
+          "path": "numpy-2.5.3.dist-info/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+          "sha256": "b0fd592d4ead563148e3977e7b589169d46a5ef2ff133c755a81af880a3fc919"
+        },
+        {
+          "path": "numpy-2.5.3.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+          "sha256": "a732977853530066790c42817087f4829b518dd98d340c916acbfd227e39d3cb"
+        },
+        {
+          "path": "numpy-2.5.3.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE",
+          "sha256": "585483905b13d4b42f800c55ba99e89d6e2e33ccd5f503e201c07531d148ff41"
+        },
+        {
+          "path": "numpy-2.5.3.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+          "sha256": "8db000e158c162e7249787852d8c69764706502ccee725c06641b31c1e95c8af"
+        },
+        {
+          "path": "numpy-2.5.3.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+          "sha256": "19060ef465e1797d682ee0fc3081bd25ab1395e995e43d25c9d13c95d9a3cd6b"
+        },
+        {
+          "path": "numpy-2.5.3.dist-info/licenses/numpy/ma/LICENSE",
+          "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+        },
+        {
+          "path": "numpy-2.5.3.dist-info/licenses/numpy/random/LICENSE.md",
+          "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+        },
+        {
+          "path": "numpy-2.5.3.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+          "sha256": "cf5619f25b112d5ce7c896efffc8e610bcb345dfadcc19f2c1460aa48fff2c9e"
+        },
+        {
+          "path": "numpy-2.5.3.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+          "sha256": "92c10699884321f1c2947fe2a70ab23b0fbf1507f756d89dd08f38c61fc3d4fa"
+        },
+        {
+          "path": "numpy-2.5.3.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+          "sha256": "41190663b77bee5302386495a07b7eabfbfa571aa0ae2f11da6764162062fc4f"
+        },
+        {
+          "path": "numpy-2.5.3.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+          "sha256": "322ac46d870c8aeead6c53adcccc839296fb3c8e456eae155081297daf7f8013"
+        },
+        {
+          "path": "numpy-2.5.3.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+          "sha256": "28cad82ce1379dc529df30da78ec012d7d0d1d576b03ddcb93388aee53659f59"
+        },
+        {
+          "path": "numpy-2.5.3.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+          "sha256": "454ec7350e478e037061850b67395753b425b1cb0a34bbc26290b020bf89d763"
+        }
+      ],
+      "redistributed_in_rc6": false
+    },
+    {
+      "name": "scipy",
+      "version": "1.18.1",
+      "license_expression": null,
+      "license_field_first_lines": [
+        "Copyright (c) 2001-2002 Enthought, Inc. 2003, SciPy Developers.",
+        " All rights reserved.",
+        "",
+        " Redistribution and use in source and binary forms, with or without"
+      ],
+      "classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "project_urls": [
+        "homepage, https://scipy.org/",
+        "documentation, https://docs.scipy.org/doc/scipy/",
+        "source, https://github.com/scipy/scipy",
+        "download, https://github.com/scipy/scipy/releases",
+        "tracker, https://github.com/scipy/scipy/issues"
+      ],
+      "license_files": [
+        {
+          "path": "scipy-1.18.1.dist-info/LICENSE.txt",
+          "sha256": "f0f5c56b298ec9795df1199edc328a987242716d14a1bde6813112e22dc15f99"
+        }
+      ],
+      "redistributed_in_rc6": false
+    },
+    {
+      "name": "scikit-learn",
+      "version": "1.9.1",
+      "license_expression": "BSD-3-Clause",
+      "license_field_first_lines": [],
+      "classifiers": [],
+      "project_urls": [
+        "homepage, https://scikit-learn.org",
+        "source, https://github.com/scikit-learn/scikit-learn",
+        "download, https://pypi.org/project/scikit-learn/#files",
+        "tracker, https://github.com/scikit-learn/scikit-learn/issues",
+        "release notes, https://scikit-learn.org/stable/whats_new"
+      ],
+      "license_files": [
+        {
+          "path": "scikit_learn-1.9.1.dist-info/licenses/COPYING",
+          "sha256": "014b1b1ad74cf00997f7081a1635c3c203cd70c08f39c13d9a39347fcd464979"
+        }
+      ],
+      "redistributed_in_rc6": false
+    },
+    {
+      "name": "joblib",
+      "version": "1.6.0",
+      "license_expression": "BSD-3-Clause",
+      "license_field_first_lines": [],
+      "classifiers": [],
+      "project_urls": [
+        "Homepage, https://joblib.readthedocs.io",
+        "Source, https://github.com/joblib/joblib"
+      ],
+      "license_files": [
+        {
+          "path": "joblib-1.6.0.dist-info/licenses/LICENSE.txt",
+          "sha256": "42612911c1872c5e4b43f6ae0e8ee59467cd350332241cf72ce90640264fae6a"
+        }
+      ],
+      "redistributed_in_rc6": false
+    },
+    {
+      "name": "xgboost",
+      "version": "3.4.1",
+      "license_expression": "Apache-2.0",
+      "license_field_first_lines": [],
+      "classifiers": [],
+      "project_urls": [
+        "documentation, https://xgboost.readthedocs.io/en/stable/",
+        "repository, https://github.com/dmlc/xgboost"
+      ],
+      "license_files": [
+        {
+          "path": "xgboost-3.4.1.dist-info/licenses/LICENSE",
+          "sha256": "e5ddaf5d29288a29f728c8aaa44985f54e86e9e4e5b9882f0213f3575fcc6168"
+        }
+      ],
+      "redistributed_in_rc6": false
+    },
+    {
+      "name": "lightgbm",
+      "version": "4.7.0",
+      "license_expression": "MIT",
+      "license_field_first_lines": [],
+      "classifiers": [],
+      "project_urls": [
+        "homepage, https://github.com/lightgbm-org/LightGBM",
+        "documentation, https://lightgbm.readthedocs.io/en/latest/",
+        "repository, https://github.com/lightgbm-org/LightGBM.git",
+        "changelog, https://github.com/lightgbm-org/LightGBM/releases"
+      ],
+      "license_files": [
+        {
+          "path": "lightgbm-4.7.0.dist-info/licenses/LICENSE",
+          "sha256": "ca70f15d841f7e76c8bbd284d25300cd4ae2ef1035e7e5252b13b73449464305"
+        }
+      ],
+      "redistributed_in_rc6": false
+    },
+    {
+      "name": "threadpoolctl",
+      "version": "3.7.0",
+      "license_expression": "BSD-3-Clause",
+      "license_field_first_lines": [],
+      "classifiers": [],
+      "project_urls": [
+        "homepage, https://github.com/joblib/threadpoolctl"
+      ],
+      "license_files": [
+        {
+          "path": "threadpoolctl-3.7.0.dist-info/licenses/LICENSE",
+          "sha256": "81ac619075248b06e53660b652d10e485f4675f5d0ae0f97ea22370da1f7e23b"
+        }
+      ],
+      "redistributed_in_rc6": false
+    },
+    {
+      "name": "torch",
+      "version": "2.11.0+cu128",
+      "license_expression": null,
+      "license_field_first_lines": [
+        "BSD-3-Clause"
+      ],
+      "classifiers": [],
+      "project_urls": [
+        "Homepage, https://pytorch.org",
+        "Repository, https://github.com/pytorch/pytorch",
+        "Documentation, https://pytorch.org/docs",
+        "Issue Tracker, https://github.com/pytorch/pytorch/issues",
+        "Forum, https://discuss.pytorch.org"
+      ],
+      "license_files": [
+        {
+          "path": "torch-2.11.0+cu128.dist-info/LICENSE",
+          "sha256": "3e289336d947fdf82f085f2a5ca757088084dd67d6530d46b4f02eb07461bb13"
+        },
+        {
+          "path": "torch-2.11.0+cu128.dist-info/NOTICE",
+          "sha256": "1c3dec6c0342c7ed9e12af59b296c7bb1d394af5cf881db74191cc8299efce5c"
+        }
+      ],
+      "redistributed_in_rc6": false
+    }
+  ]
+}
