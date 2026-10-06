@@ -1,6 +1,6 @@
 # License scope
 
-Copyright (c) 2026 Luchang Yang.
+Copyright (c) 2026 ******* ****.
 
 The root LICENSE is the MIT License for the project-authored source code and the software configuration and usage documentation explicitly listed in CODE_LICENSE_SCOPE.json. This list defines the scope of the project license; it is not a blanket grant over every file in this directory or its archives.
 
