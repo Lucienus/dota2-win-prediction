@@ -1,6 +1,6 @@
 # Dota 2 frozen-cohort reconstruction release
 
-Local candidate: reconstruction-2026-10-06. No GitHub or anonymous review URL exists yet.
+Reconstruction release: reconstruction-2026-10-06.
 This version supersedes the code-only public candidate for future release planning.
 Read RECONSTRUCTION_ZH.md for full Chinese instructions and limitations.
 
